@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context path="/Tienda"/>
+<Context path="/Tienda">
+
+<Resource name="jdbc/tienda" driverClassName="com.mysql.cj.jdbc.Driver" 
+              maxActive="100" maxIdle="30" maxWait="10000" 
+              type="javax.sql.DataSource" 
+              url="jdbc:mysql://localhost:3306/tienda?serverTimezone=America/Cancun" 
+              username="root" password="1234" 
+/>
+</Context>
